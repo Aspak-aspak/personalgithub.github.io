@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+  </head>
+  <body>
+    <p>
+      Items: <input type="text" size="10" id="items" />
+      <input type="button" value="Enter" onclick="Order()" />
+    </p>
+    <br />
+    <p>Shipping and Handling: <span id="ship">$4.99</span></p>
+
+    <div>
+      <h2>Order Summary</h2>
+      <p style="margin-bottom: 50px">
+        Item(s): <span id="itemcost" style="margin-left: 200px">$0.00</span>
+      </p>
+
+      <p style="margin-bottom: 50px">
+        Total before tax:
+        <span id="totalbefore" style="margin-left: 145px">$0.00</span>
+      </p>
+
+      <p style="margin-bottom: 50px; border-bottom: 2px solid black">
+        Estimated tax(10%):
+        <span id="tax" style="margin-left: 118px">$0.00</span>
+      </p>
+
+      <p style="font-weight: bold; color: red">
+        Order Total: <span id="total" style="margin-left: 162px">$0.00</span>
+      </p>
+    </div>
+
+    <script type="text/javascript" src="final-task2.js"></script>
+    <script></script>
+  </body>
+</html>
